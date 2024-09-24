@@ -21,8 +21,75 @@
     <body>
         <header>
             <!-- place navbar here -->
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="./img/duck.png" width="60px" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Catalogo Libri</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Anagrafica Utenti</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Storico Prestiti</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-secondary" aria-disabled="true">Help</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
         </header>
-        <main></main>
+        <main>
+            <div class="container d-flex justify-content-between align-center my-4">
+                <div>
+                    <h2>Catalogo Libri</h2>
+                </div>
+                <div class="align-self-center">
+                    <a class="btn btn-primary" href="#" role="button">Aggiungi Libro</a>
+                </div>
+            </div>
+            <div class="container">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Titolo</th>
+                        <th scope="col">Data Prestito</th>
+                        <th scope="col">Stato</th>
+                        <th scope="col">Azioni</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row table-secondary">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+            </div>
+            
+        </main>
         <footer>
             <!-- place footer here -->
         </footer>
