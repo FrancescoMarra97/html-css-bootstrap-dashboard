@@ -23,14 +23,14 @@
             <!-- place navbar here -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="./img/duck.png" width="60px" alt=""></a>
+                  <a class="navbar-brand" href="index.html"><img src="./img/duck.png" width="60px" alt=""></a>
                   <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon "></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Catalogo Libri</a>
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Catalogo Libri</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link text-secondary" href="#">Anagrafica Utenti</a>
@@ -65,7 +65,7 @@
                       <h5>Titolo</h5>
                       <input type="text" class="form-control"  placeholder="Inserisci il titolo del Libro">
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-12">
                      <h5>Genere</h5>
                       <select class="form-select">
                         <option selected><strong>Scegli il genere</strong></option>
@@ -78,13 +78,13 @@
                         <option>Autobiografia</option>
                       </select>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-12">
                      
                       <h5>Anno di pubblicazione</h5>
                       <input type="text" placeholder="inserisci l'anno" class="form-control">
                     </div>
                     
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-12">
                       <h5>ISBN#</h5>
                       <input type="text" class="form-control" placeholder="inserisci il codice ISBN#">
                     </div>
@@ -92,19 +92,19 @@
 
                     <div class="col-12">
                       <h5>Note</h5>
-                      <textarea class="form-control" placeholder="Inserisci eventuali note sul libro" style="height: 100px"></textarea>
+                      <textarea class="form-control" placeholder="Inserisci eventuali note sul libro" style="max-height: 100px; min-height: 100px;"></textarea>
                     </div>
 
                     <div class="col-12">
                       <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="gridCheck">
                         <label class="form-check-label" for="gridCheck">
-                          Check me out
+                          <strong>Disponibile anche in digitale</strong>
                         </label>
                       </div>
                     </div>
                     <div class="col-12">
-                      <button type="submit" class="btn btn-primary">Sign in</button>
+                      <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
                     </div>
                   </form>
                 </div>  
