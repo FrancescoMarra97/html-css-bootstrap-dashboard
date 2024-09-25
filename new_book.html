@@ -50,10 +50,64 @@
         <main>
             <div class="container d-flex justify-content-between align-center my-4">
                 <div>
-                    <h2>Nuovo Libro</h2>
-                </div>   
-            </div>
-            
+                    <h2 class="mb-4">Nuovo Libro</h2>
+                   
+                  <form class="row g-3">
+                    <div class="col-md-6">
+                      <h5 class="my-2">Nome Autore</h5>
+                      <input type="text" class="form-control" placeholder="inserisci il nome dell'Autore" aria-label="First name">
+                    </div>
+                    <div class="col-md-6">
+                      <h5 class="my-2">Cognome Autore</h5>
+                      <input type="text" class="form-control" placeholder="inserisci il cognome dell'Autore" aria-label="Last name">
+                    </div>
+                    <div class="col-12">
+                      <h5>Titolo</h5>
+                      <input type="text" class="form-control"  placeholder="Inserisci il titolo del Libro">
+                    </div>
+                    <div class="col-md-4">
+                     <h5>Genere</h5>
+                      <select class="form-select">
+                        <option selected><strong>Scegli il genere</strong></option>
+                        <option>Romanzo Storico</option>
+                        <option>Fantasy</option>
+                        <option>Thriller</option>
+                        <option>Avventura e Azione</option>
+                        <option>Romantico</option>
+                        <option>Giallo</option>
+                        <option>Autobiografia</option>
+                      </select>
+                    </div>
+                    <div class="col-md-4">
+                     
+                      <h5>Anno di pubblicazione</h5>
+                      <input type="text" placeholder="inserisci l'anno" class="form-control">
+                    </div>
+                    
+                    <div class="col-md-4">
+                      <h5>ISBN#</h5>
+                      <input type="text" class="form-control" placeholder="inserisci il codice ISBN#">
+                    </div>
+                    <hr class="mt-5 mb-3">
+
+                    <div class="col-12">
+                      <h5>Note</h5>
+                      <textarea class="form-control" placeholder="Inserisci eventuali note sul libro" style="height: 100px"></textarea>
+                    </div>
+
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                  </form>
+                </div>  
             </div>
             
         </main>
